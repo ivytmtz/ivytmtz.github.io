@@ -56,9 +56,9 @@ nav a:hover {
   background-color: #7C1A00;
 }
 
-#container {
+#content {
   background-image: url("trans-bg.gif");
-  border: 1px;
+  border: 1px solid #CCCCCC;
   margin-left: 180px;
   padding: 10px;
 }
@@ -77,14 +77,15 @@ h1 {
   color: #8C9273;
 }
 
- h2 {
+h2 {
   border-left: 20px solid #8C9273;
   border-bottom: 5px solid #8C9273;
   padding-left: 5px;
 }
 
 h3 {
-  background-image: url("header-star-1.gif")
+  background-image: url("header-star-1.gif");
+  background-repeat: no-repeat;
   padding-left: 20px;
 }
 
@@ -96,11 +97,11 @@ ul {
   list-style-type: square;
 }
 
-global a {
+a {
   color: #7C1A00;
   font-weight: bold;
 }
 
-global a:hover {
+a:hover {
   background-color: #FFE597;
 }
