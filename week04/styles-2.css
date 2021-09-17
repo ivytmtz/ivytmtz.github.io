@@ -37,10 +37,12 @@ h1 {
 h2 {
   font-size: 3rem;
   text-align: center;
+  text-shadow: 4px 4px 10px #ff87a8;
 }
 
 h3 {
   font-size: 2.2rem;
+  text-shadow: 4px 4px 10px #485791;
 }
 
 p, li {
@@ -62,7 +64,7 @@ body > * {
 }
 
 main, header, nav, article, aside, footer, section {
-  background-color: rgba(45.7,24.19,30.11,0.50);
+  background-color: rgba(45.7,24.19,30.11,0.40);
   padding: 1%;
 }
 
