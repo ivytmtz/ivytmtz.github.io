@@ -1,107 +1,47 @@
-@charset "utf-8";
-/* CSS Document */
-
-body {
-  font-family: "Georgia", serif;
-  color: black;
-  line-height: 140%;
-  margin: 30px;
-  background-image: url("page-bg.gif");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: #F7F3DE;
-}
-
-header h1 {
-  font-size: 350%;
-  color: #7C1A00;
-  padding: 40px 40px 40px 120px;
-  background-image: url("header-image-1.gif");
-  background-position: left top;
-  background-repeat: no-repeat;
-}
-
-#container {
-  margin-bottom: 30px;
-}
-
-nav {
-  float: left;
-  width: 150px;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  color: #7C1A00;
-}
-
-nav li {
-  margin: 10px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #7C1A00;
-  background-color: #FFE597;
-}
-
-nav a {
-  color: white;
-  background-color: #8C9273;
-  padding: 3px 60px 3px 3px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  background-color: #7C1A00;
-}
-
-#content {
-  background-image: url("trans-bg.gif");
-  border: 1px solid #CCCCCC;
-  margin-left: 180px;
-  padding: 10px;
-}
-
-footer {
-  clear: both;
-  text-align: center;
-}
-
-footer li {
-  display: inline;
-  padding: 10px;
-}
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+    
 h1 {
-  color: #8C9273;
-}
-
-h2 {
-  border-left: 20px solid #8C9273;
-  border-bottom: 5px solid #8C9273;
-  padding-left: 5px;
-}
-
-h3 {
-  background-image: url("header-star-1.gif");
+  color: maroon;
+  margin-left: 40px;
+  border: dashed orange;
+  font-family: Garamond;
+  background-color: #FAEBD7;
+  padding: 20px;
   background-repeat: no-repeat;
-  padding-left: 20px;
 }
 
-blockquote {
-  background-color: #FFE597;
-}
+ iframe {
+  background-color: #FAEBD7;
+  padding: 20px;
+}  
+    
+</style>
+  
+  <title>Using APIs</title>
+  
+</head>
+<body style="background-color:#AF5B3A;">
+  
+  <h1><p align="center"> For a great place to visit while in Dallas, go to:</p></h1>
+  
+  <p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.900981637451!2d-96.71925668448176!3d32.82138848902808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864ea19a64681b47%3A0x68139237078b7642!2sThe%20Dallas%20Arboretum%20and%20Botanical%20Garden!5e0!3m2!1sen!2sus!4v1634083094652!5m2!1sen!2sus" width="1200" height="1200" allowfullscreen="" loading="lazy"></iframe></p>
+  
+  <h1><p align="center"> Some Fall ideas to try out while there!</p></h1>
+ 
+  <p align="center">
+<iframe src="https://assets.pinterest.com/ext/embed.html?id=276267758382050421" height="1000" width="650" frameborder="0" scrolling="yes" ></iframe>
+  
+<iframe src="https://fixthephoto.com/fall-photoshoot-ideas.html" height="1000" width="1200" frameborder="0" scrolling="yes">
+    </iframe></p>
 
-ul {
-  list-style-type: square;
-}
+     <h1><p align="center"> Check out the weather before you go:</p></h1>
+  </h1>
+<p align="center"><iframe src="https://www.nbcdfw.com/weather/" height="1000" width="1600" frameBorder="0" style="border:2px solid black;"></iframe><br>Brought to you by <a href="https://www.nbcdfw.com/weather/" target="_blank">5NBCDFW</a>
+</iframe></p>
 
-a {
-  color: #7C1A00;
-  font-weight: bold;
-}
-
-a:hover {
-  background-color: #FFE597;
-}
+</body>
+</html>
